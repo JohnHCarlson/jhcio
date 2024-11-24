@@ -22,23 +22,28 @@ const MainNav = () => {
         <Navbar.Collapse id="main-navbar-nav">
           <Nav className="me-auto">
             <Nav.Item>
-              <Nav.Link as={Link} to="/home">
+              <Nav.Link as={Link} to="/">
                 Home
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link as={Link} to="/search">
-                Search
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link as={Link} to="/about">
                 About
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item>{" "}
             <Nav.Item>
-              <Nav.Link as={Link} to="/stats">
-                Stats
+              <Nav.Link as={Link} to="/resume">
+                Resume
+              </Nav.Link>
+            </Nav.Item>{" "}
+            <Nav.Item>
+              <Nav.Link as={Link} to="/projects">
+                Projects
+              </Nav.Link>
+            </Nav.Item>{" "}
+            <Nav.Item>
+              <Nav.Link as={Link} to="/contact">
+                Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>
